@@ -97,6 +97,7 @@ class TrainTransform:
         padded_labels = np.ascontiguousarray(padded_labels, dtype=np.float32)
         return image_t, padded_labels
 
+
 class ValTransform:
     """
     Defines the transformations that should be applied to test PIL image
